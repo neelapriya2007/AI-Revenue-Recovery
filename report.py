@@ -1,0 +1,17 @@
+import pandas as pd
+df = pd.read_csv("results.csv")
+batch = pd.read_csv("batch.csv")
+total_failed_amount = batch[batch.status=="failed"]["amount"].sum()
+recovered = df["recovered_amount"].sum()
+at_risk_n = len(df)
+
+print("="*52)
+print("  RECLAIM — Measured Money Recovered (batch run)")
+print("="*52)
+print(f"  Cases at risk (failed payments) : {at_risk_n}")
+print(f"  Amount at risk                  : Rs {total_failed_amount:,.0f}")
+print(f"  Recovered                       : Rs {recovered:,.0f}")
+print(f"  Recovery rate (of amount)       : {100*recovered/total_failed_amount:.1f}%")
+print(f"  Recovery rate (of cases)        : {100*(df.outcome=='recovered').mean():.1f}%")
+print(f"  Escalated to human queue        : {(df.outcome=='escalated').sum()}")
+print("="*52)

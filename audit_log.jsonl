@@ -1,0 +1,436 @@
+{"ts": "2026-09-05T18:54:09.284073", "txn": "pay_00000", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.284073", "txn": "pay_00000", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.289815", "txn": "pay_00000", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.292845", "txn": "pay_00002", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.294850", "txn": "pay_00002", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.295399", "txn": "pay_00002", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.300317", "txn": "pay_00004", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.303323", "txn": "pay_00004", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.306731", "txn": "pay_00004", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.306731", "txn": "pay_00004", "attempt": 3, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.311233", "txn": "pay_00005", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.314258", "txn": "pay_00005", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.320131", "txn": "pay_00005", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.322455", "txn": "pay_00006", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.324473", "txn": "pay_00006", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.324473", "txn": "pay_00006", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.328248", "txn": "pay_00008", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.332210", "txn": "pay_00008", "attempt": 1, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.332210", "txn": "pay_00009", "decision": "escalate", "reason": "compliance_hold", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.337512", "txn": "pay_00014", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.340048", "txn": "pay_00014", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.342333", "txn": "pay_00014", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.345916", "txn": "pay_00014", "attempt": 3, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:09.347675", "txn": "pay_00016", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.347675", "txn": "pay_00016", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:09.355755", "txn": "pay_00018", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.357492", "txn": "pay_00018", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.361971", "txn": "pay_00018", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.363127", "txn": "pay_00018", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.366823", "txn": "pay_00020", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.371535", "txn": "pay_00020", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.371535", "txn": "pay_00020", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.371535", "txn": "pay_00020", "attempt": 3, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.380163", "txn": "pay_00021", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.380163", "txn": "pay_00021", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.385451", "txn": "pay_00021", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.387201", "txn": "pay_00021", "attempt": 3, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.387201", "txn": "pay_00026", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.387201", "txn": "pay_00026", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.387201", "txn": "pay_00033", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.387201", "txn": "pay_00033", "attempt": 1, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:09.403145", "txn": "pay_00034", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.405173", "txn": "pay_00034", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.405173", "txn": "pay_00034", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:09.405173", "txn": "pay_00039", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.413545", "txn": "pay_00039", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.413545", "txn": "pay_00039", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.413545", "txn": "pay_00039", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.419954", "txn": "pay_00040", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.420637", "txn": "pay_00040", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.420637", "txn": "pay_00040", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.420637", "txn": "pay_00045", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.431175", "txn": "pay_00045", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:09.431175", "txn": "pay_00046", "decision": "escalate", "reason": "compliance_hold", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.436907", "txn": "pay_00047", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.436907", "txn": "pay_00047", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.436907", "txn": "pay_00048", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.443030", "txn": "pay_00048", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.445565", "txn": "pay_00048", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.445565", "txn": "pay_00048", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.451233", "txn": "pay_00052", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.451233", "txn": "pay_00052", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.451233", "txn": "pay_00052", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.459627", "txn": "pay_00052", "attempt": 3, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.459627", "txn": "pay_00053", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.459627", "txn": "pay_00053", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.459627", "txn": "pay_00053", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.459627", "txn": "pay_00053", "attempt": 3, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.459627", "txn": "pay_00055", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.459627", "txn": "pay_00055", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.475118", "txn": "pay_00055", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.475118", "txn": "pay_00055", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.475118", "txn": "pay_00059", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.475118", "txn": "pay_00059", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.475118", "txn": "pay_00059", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.475118", "txn": "pay_00062", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.475118", "txn": "pay_00062", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.490860", "txn": "pay_00062", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.490860", "txn": "pay_00066", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.497842", "txn": "pay_00066", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.497842", "txn": "pay_00067", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.502323", "txn": "pay_00067", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.505133", "txn": "pay_00067", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.506877", "txn": "pay_00069", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.506877", "txn": "pay_00069", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.511741", "txn": "pay_00070", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.514231", "txn": "pay_00070", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.514231", "txn": "pay_00073", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.518720", "txn": "pay_00073", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.521552", "txn": "pay_00073", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.523366", "txn": "pay_00073", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.523366", "txn": "pay_00074", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.528859", "txn": "pay_00074", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.529945", "txn": "pay_00074", "attempt": 2, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.529945", "txn": "pay_00075", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.529945", "txn": "pay_00075", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.538168", "txn": "pay_00075", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.540397", "txn": "pay_00075", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.541749", "txn": "pay_00076", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.545186", "txn": "pay_00076", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.548184", "txn": "pay_00076", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.550215", "txn": "pay_00076", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.553284", "txn": "pay_00078", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.555841", "txn": "pay_00078", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.555841", "txn": "pay_00078", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.559960", "txn": "pay_00078", "attempt": 3, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.561387", "txn": "pay_00079", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.563192", "txn": "pay_00079", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.566036", "txn": "pay_00079", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.567389", "txn": "pay_00079", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.569796", "txn": "pay_00080", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.571009", "txn": "pay_00080", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.571009", "txn": "pay_00080", "attempt": 2, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:09.574993", "txn": "pay_00082", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.578187", "txn": "pay_00082", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.578187", "txn": "pay_00082", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.578187", "txn": "pay_00082", "attempt": 3, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:09.583750", "txn": "pay_00083", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.583750", "txn": "pay_00083", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.587091", "txn": "pay_00083", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.589298", "txn": "pay_00085", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.589298", "txn": "pay_00085", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:09.592295", "txn": "pay_00086", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.594989", "txn": "pay_00086", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.596903", "txn": "pay_00087", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.598268", "txn": "pay_00087", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.600731", "txn": "pay_00087", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.603274", "txn": "pay_00088", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.605867", "txn": "pay_00088", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.607892", "txn": "pay_00090", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.612178", "txn": "pay_00090", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.615663", "txn": "pay_00090", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.615663", "txn": "pay_00090", "attempt": 3, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.619789", "txn": "pay_00098", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.622932", "txn": "pay_00098", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.625780", "txn": "pay_00098", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.628125", "txn": "pay_00098", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.629483", "txn": "pay_00101", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.631412", "txn": "pay_00101", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.631412", "txn": "pay_00101", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.636311", "txn": "pay_00101", "attempt": 3, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.639631", "txn": "pay_00106", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.641666", "txn": "pay_00106", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.644912", "txn": "pay_00106", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.646127", "txn": "pay_00106", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.648520", "txn": "pay_00108", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.653122", "txn": "pay_00108", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.654345", "txn": "pay_00108", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.654345", "txn": "pay_00109", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.661479", "txn": "pay_00109", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.664037", "txn": "pay_00112", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.664037", "txn": "pay_00112", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.664037", "txn": "pay_00114", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.672110", "txn": "pay_00114", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.674647", "txn": "pay_00115", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.680223", "txn": "pay_00115", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.682452", "txn": "pay_00115", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.682452", "txn": "pay_00115", "attempt": 3, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:09.689387", "txn": "pay_00116", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.689387", "txn": "pay_00116", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.697105", "txn": "pay_00117", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.699504", "txn": "pay_00117", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.699504", "txn": "pay_00117", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.705622", "txn": "pay_00117", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.705622", "txn": "pay_00119", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.712095", "txn": "pay_00119", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.714903", "txn": "pay_00119", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.716921", "txn": "pay_00119", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.719853", "txn": "pay_00120", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.719853", "txn": "pay_00120", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.723210", "txn": "pay_00120", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.725230", "txn": "pay_00120", "attempt": 3, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.730246", "txn": "pay_00122", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.734627", "txn": "pay_00122", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.738579", "txn": "pay_00122", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.738579", "txn": "pay_00122", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.738579", "txn": "pay_00123", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.746166", "txn": "pay_00123", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.746166", "txn": "pay_00123", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.746166", "txn": "pay_00123", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.746166", "txn": "pay_00125", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.754787", "txn": "pay_00125", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:09.754787", "txn": "pay_00126", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.754787", "txn": "pay_00126", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.763554", "txn": "pay_00126", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.766361", "txn": "pay_00129", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.769810", "txn": "pay_00129", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.771952", "txn": "pay_00130", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.771952", "txn": "pay_00130", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:09.778188", "txn": "pay_00131", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.781703", "txn": "pay_00131", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.783783", "txn": "pay_00132", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.786431", "txn": "pay_00132", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.789702", "txn": "pay_00132", "attempt": 2, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.789702", "txn": "pay_00133", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.796437", "txn": "pay_00133", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:09.799011", "txn": "pay_00135", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.803386", "txn": "pay_00135", "attempt": 1, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.805805", "txn": "pay_00137", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.809140", "txn": "pay_00137", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:09.813216", "txn": "pay_00139", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.815752", "txn": "pay_00139", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.817768", "txn": "pay_00139", "attempt": 2, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.822125", "txn": "pay_00141", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.822125", "txn": "pay_00141", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.828080", "txn": "pay_00141", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.831597", "txn": "pay_00141", "attempt": 3, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:09.831597", "txn": "pay_00144", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.837790", "txn": "pay_00144", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:09.843083", "txn": "pay_00145", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.846054", "txn": "pay_00145", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.846054", "txn": "pay_00145", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.846054", "txn": "pay_00145", "attempt": 3, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.855100", "txn": "pay_00146", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.857138", "txn": "pay_00146", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.862811", "txn": "pay_00146", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.862811", "txn": "pay_00146", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.869826", "txn": "pay_00154", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.873346", "txn": "pay_00154", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.873346", "txn": "pay_00154", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.879837", "txn": "pay_00156", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.879837", "txn": "pay_00156", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:09.887866", "txn": "pay_00158", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.887866", "txn": "pay_00158", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.887866", "txn": "pay_00158", "attempt": 2, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:09.896240", "txn": "pay_00161", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.896240", "txn": "pay_00161", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:09.896240", "txn": "pay_00161", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:09.904358", "txn": "pay_00162", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.907925", "txn": "pay_00162", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:09.907925", "txn": "pay_00169", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.912669", "txn": "pay_00169", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.915960", "txn": "pay_00169", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.919828", "txn": "pay_00169", "attempt": 3, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.921830", "txn": "pay_00170", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.923856", "txn": "pay_00170", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:09.929567", "txn": "pay_00170", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:09.929567", "txn": "pay_00172", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.929567", "txn": "pay_00172", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.936568", "txn": "pay_00172", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.937974", "txn": "pay_00172", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:09.940001", "txn": "pay_00175", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.940001", "txn": "pay_00175", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:09.946206", "txn": "pay_00175", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:09.946206", "txn": "pay_00178", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.946206", "txn": "pay_00178", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.954515", "txn": "pay_00178", "attempt": 2, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:09.956539", "txn": "pay_00179", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.956539", "txn": "pay_00179", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.961406", "txn": "pay_00179", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.964425", "txn": "pay_00179", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:09.964425", "txn": "pay_00180", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.971280", "txn": "pay_00180", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.973303", "txn": "pay_00180", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:09.975327", "txn": "pay_00183", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.979344", "txn": "pay_00183", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.979344", "txn": "pay_00183", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.984136", "txn": "pay_00183", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:09.989900", "txn": "pay_00185", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.992119", "txn": "pay_00185", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.994672", "txn": "pay_00185", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.997783", "txn": "pay_00185", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:09.997783", "txn": "pay_00186", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:10.003069", "txn": "pay_00186", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:10.003069", "txn": "pay_00187", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.003069", "txn": "pay_00187", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.011254", "txn": "pay_00187", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.011254", "txn": "pay_00187", "attempt": 3, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:10.017837", "txn": "pay_00189", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.019715", "txn": "pay_00189", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:10.021719", "txn": "pay_00190", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.021719", "txn": "pay_00190", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:10.021719", "txn": "pay_00192", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.028223", "txn": "pay_00192", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:10.029943", "txn": "pay_00193", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.033007", "txn": "pay_00193", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.036522", "txn": "pay_00193", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.036522", "txn": "pay_00193", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.044946", "txn": "pay_00194", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.047220", "txn": "pay_00194", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.051522", "txn": "pay_00194", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.053774", "txn": "pay_00194", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.058398", "txn": "pay_00196", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.061348", "txn": "pay_00196", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.063401", "txn": "pay_00196", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:10.063401", "txn": "pay_00199", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.070952", "txn": "pay_00199", "attempt": 1, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:10.071876", "txn": "pay_00201", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.075503", "txn": "pay_00201", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:10.079655", "txn": "pay_00202", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.081684", "txn": "pay_00202", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:10.081684", "txn": "pay_00205", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.087762", "txn": "pay_00205", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.087762", "txn": "pay_00205", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.094674", "txn": "pay_00205", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.097246", "txn": "pay_00212", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.098482", "txn": "pay_00212", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.103006", "txn": "pay_00212", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.103006", "txn": "pay_00212", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.108272", "txn": "pay_00213", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.108272", "txn": "pay_00213", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:10.114630", "txn": "pay_00216", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:10.114630", "txn": "pay_00216", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:10.117246", "txn": "pay_00216", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:10.121668", "txn": "pay_00216", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:10.125486", "txn": "pay_00217", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:10.125486", "txn": "pay_00217", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:10.128153", "txn": "pay_00217", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:10.134101", "txn": "pay_00218", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.136737", "txn": "pay_00218", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:10.136737", "txn": "pay_00220", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.142763", "txn": "pay_00220", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.148211", "txn": "pay_00220", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.150815", "txn": "pay_00220", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.154820", "txn": "pay_00223", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.154820", "txn": "pay_00223", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.161356", "txn": "pay_00223", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.163140", "txn": "pay_00223", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.163140", "txn": "pay_00224", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.169902", "txn": "pay_00224", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.171770", "txn": "pay_00224", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.171770", "txn": "pay_00224", "attempt": 3, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:10.180157", "txn": "pay_00226", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.180157", "txn": "pay_00226", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:10.180157", "txn": "pay_00228", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.188269", "txn": "pay_00228", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:10.190371", "txn": "pay_00229", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.197818", "txn": "pay_00229", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.199468", "txn": "pay_00229", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.199468", "txn": "pay_00229", "attempt": 3, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:10.203333", "txn": "pay_00230", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.207656", "txn": "pay_00230", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.207656", "txn": "pay_00230", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.213589", "txn": "pay_00230", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.215910", "txn": "pay_00232", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:10.215910", "txn": "pay_00232", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:10.222910", "txn": "pay_00232", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:10.225178", "txn": "pay_00232", "attempt": 3, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:10.228210", "txn": "pay_00239", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.228210", "txn": "pay_00239", "attempt": 1, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:10.236289", "txn": "pay_00240", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.236289", "txn": "pay_00240", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.240789", "txn": "pay_00240", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.240789", "txn": "pay_00240", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.246498", "txn": "pay_00241", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.249375", "txn": "pay_00241", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.254891", "txn": "pay_00241", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.256660", "txn": "pay_00241", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.261353", "txn": "pay_00242", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.264984", "txn": "pay_00242", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.267017", "txn": "pay_00242", "attempt": 2, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:10.271632", "txn": "pay_00246", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.273693", "txn": "pay_00246", "attempt": 1, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:10.278008", "txn": "pay_00247", "decision": "escalate", "reason": "compliance_hold", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.283078", "txn": "pay_00248", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:10.283078", "txn": "pay_00248", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:10.290056", "txn": "pay_00250", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.292084", "txn": "pay_00250", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:10.297975", "txn": "pay_00253", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.300021", "txn": "pay_00253", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.304581", "txn": "pay_00253", "attempt": 2, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:10.306616", "txn": "pay_00254", "decision": "escalate", "reason": "compliance_hold", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.311295", "txn": "pay_00256", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:10.314851", "txn": "pay_00256", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 199}
+{"ts": "2026-09-05T18:54:10.314851", "txn": "pay_00256", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 199}
+{"ts": "2026-09-05T18:54:10.320909", "txn": "pay_00258", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.324980", "txn": "pay_00258", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.329596", "txn": "pay_00258", "attempt": 3, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.331666", "txn": "pay_00258", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.331666", "txn": "pay_00260", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.337386", "txn": "pay_00260", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.339423", "txn": "pay_00260", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.344682", "txn": "pay_00260", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.349489", "txn": "pay_00262", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.353009", "txn": "pay_00262", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.356609", "txn": "pay_00262", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.356609", "txn": "pay_00262", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.356609", "txn": "pay_00264", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.364720", "txn": "pay_00264", "attempt": 2, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.369608", "txn": "pay_00264", "attempt": 2, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:10.372989", "txn": "pay_00266", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.375018", "txn": "pay_00266", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.379225", "txn": "pay_00266", "attempt": 2, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:10.379225", "txn": "pay_00267", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 499}
+{"ts": "2026-09-05T18:54:10.387513", "txn": "pay_00267", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 499}
+{"ts": "2026-09-05T18:54:10.390106", "txn": "pay_00268", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.390106", "txn": "pay_00268", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.396037", "txn": "pay_00268", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 299}
+{"ts": "2026-09-05T18:54:10.396037", "txn": "pay_00269", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.404217", "txn": "pay_00269", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.406991", "txn": "pay_00269", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.412430", "txn": "pay_00269", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.412430", "txn": "pay_00274", "decision": "escalate", "reason": "compliance_hold", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.412430", "txn": "pay_00275", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.419725", "txn": "pay_00275", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.423058", "txn": "pay_00275", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "otp_timeout", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.423058", "txn": "pay_00275", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.431599", "txn": "pay_00280", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.431599", "txn": "pay_00280", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.437902", "txn": "pay_00280", "attempt": 2, "action": "retry_end_of_month_reminder", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:10.439981", "txn": "pay_00282", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.445803", "txn": "pay_00282", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 999}
+{"ts": "2026-09-05T18:54:10.449300", "txn": "pay_00282", "attempt": 2, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 999}
+{"ts": "2026-09-05T18:54:10.452934", "txn": "pay_00283", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.455181", "txn": "pay_00283", "attempt": 1, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 1499}
+{"ts": "2026-09-05T18:54:10.455181", "txn": "pay_00285", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.461299", "txn": "pay_00285", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.464711", "txn": "pay_00285", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.466735", "txn": "pay_00285", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.469609", "txn": "pay_00287", "decision": "escalate", "reason": "compliance_hold", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.473255", "txn": "pay_00288", "attempt": 1, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.473255", "txn": "pay_00288", "attempt": 2, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.479404", "txn": "pay_00288", "attempt": 3, "action": "instant_retry_with_nudge", "cause": "network_error", "amount_at_risk": 99}
+{"ts": "2026-09-05T18:54:10.483050", "txn": "pay_00288", "attempt": 3, "action": "instant_retry_with_nudge", "result": "RECOVERED", "amount_recovered": 99}
+{"ts": "2026-09-05T18:54:10.489629", "txn": "pay_00290", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.491660", "txn": "pay_00290", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.495833", "txn": "pay_00290", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.498404", "txn": "pay_00290", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.500433", "txn": "pay_00293", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.504365", "txn": "pay_00293", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.508486", "txn": "pay_00293", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.511235", "txn": "pay_00293", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.516739", "txn": "pay_00295", "attempt": 1, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.516739", "txn": "pay_00295", "attempt": 2, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.522480", "txn": "pay_00295", "attempt": 3, "action": "retry_end_of_month_reminder", "cause": "insufficient_funds", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.524535", "txn": "pay_00295", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 299}
+{"ts": "2026-09-05T18:54:10.527698", "txn": "pay_00297", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.531670", "txn": "pay_00297", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.531670", "txn": "pay_00297", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.537495", "txn": "pay_00297", "attempt": 3, "action": "send_update_card_link", "result": "RECOVERED", "amount_recovered": 2499}
+{"ts": "2026-09-05T18:54:10.541554", "txn": "pay_00298", "attempt": 1, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.545673", "txn": "pay_00298", "attempt": 2, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.545673", "txn": "pay_00298", "attempt": 3, "action": "send_update_card_link", "cause": "card_expired", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.552893", "txn": "pay_00298", "decision": "escalate", "reason": "max_attempts_reached", "amount_at_risk": 2499}
+{"ts": "2026-09-05T18:54:10.556435", "txn": "pay_00299", "attempt": 1, "action": "schedule_retry_next_window", "cause": "bank_downtime", "amount_at_risk": 1499}
+{"ts": "2026-09-05T18:54:10.556435", "txn": "pay_00299", "attempt": 1, "action": "schedule_retry_next_window", "result": "RECOVERED", "amount_recovered": 1499}
